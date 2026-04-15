@@ -2,7 +2,7 @@
 /* ===== API CONFIGURATION ===== */
 const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
   ? 'http://localhost:8080/api'
-  : 'https://your-railway-backend.up.railway.app/api';  // Will be updated after Railway deployment
+  : 'https://mock-interview-final-production.up.railway.app/api';
 
 /* ===== AUTH STATE ===== */
 let authToken = localStorage.getItem('authToken');
