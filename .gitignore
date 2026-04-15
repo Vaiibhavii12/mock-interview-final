@@ -1,0 +1,27 @@
+# Java
+*.class
+*.jar
+*.war
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Env
+.env
+*.log
